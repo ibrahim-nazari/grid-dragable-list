@@ -152,7 +152,7 @@ export function Sortable({
       sensors={sensors}
       collisionDetection={collisionDetection}
       onDragStart={({active}) => {
-        console.log("active",active)
+        
         if (!active) {
           return;
         }
